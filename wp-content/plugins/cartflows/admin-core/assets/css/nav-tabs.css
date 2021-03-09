@@ -1,0 +1,32 @@
+.wcf-nav-tab-wrapper {
+    margin: 30px 0;
+    border-bottom: 1px solid #ccc;
+    padding: 0;
+}
+
+.wcf-nav-tab-wrapper .wcf-nav-tab {
+    display: inline-block;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid transparent;
+    color: #797979;
+    cursor: pointer;
+    padding: 10px 28px;
+    font-size: 16px;
+    line-height: 1.75;
+    font-weight: 600;
+    margin-top: 1px;
+    margin-left: 0;
+    max-width: 100%;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    box-shadow: none;
+}
+
+.wcf-nav-tab-wrapper .wcf-nav-tab.wcf-tab-active {
+    border-bottom: 1px solid #f06335;
+    box-shadow: 0 2px #f06335;
+    background: transparent;
+    color: #f06335;
+}

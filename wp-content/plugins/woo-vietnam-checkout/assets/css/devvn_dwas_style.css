@@ -1,0 +1,75 @@
+.woocommerce form .form-row.address-field .select2-container {
+    width: 100% !important;
+}
+#billing_address_2_field>label {
+    width: inherit !important;
+    opacity: 1 !important;
+}
+.devvn_loading:after {
+    -webkit-animation: devvn_spin_pro 500ms infinite linear;
+    animation: devvn_spin_pro 500ms infinite linear;
+    border: 2px solid #9E9E9E;
+    border-radius: 32px;
+    border-right-color: transparent !important;
+    border-top-color: transparent !important;
+    content: "";
+    display: block;
+    height: 16px;
+    top: 50%;
+    margin-top: -8px;
+    left: 50%;
+    margin-left: -8px;
+    position: absolute;
+    width: 16px;
+}
+
+.devvn_loading {
+    position: relative;
+    opacity: 0.5;
+    pointer-events: none;
+}
+
+.devvn_loading:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.1);
+    display: inherit !important;
+    z-index: 2;
+}
+
+@-webkit-keyframes devvn_spin_pro {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg)
+    }
+
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg)
+    }
+}
+
+@keyframes devvn_spin_pro {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg)
+    }
+
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg)
+    }
+}
+body.woocommerce-checkout[class*="wr-"] .form-row-wide#billing_last_name_field {
+    padding-left: 0 !important;
+    width: 100% !important;
+    float: none !important;
+}
+body[class*="wr-"].woocommerce-checkout .select2-container {
+    height: auto !important;
+    line-height: inherit !important;
+}

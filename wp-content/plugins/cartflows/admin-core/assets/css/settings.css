@@ -1,0 +1,228 @@
+.form-field-actions{
+    display: none;
+}
+/* Wraper Clear 
+**************************************/
+
+.wcf-clearfix:after {
+    clear: both;
+}
+
+.wcf-clearfix:before,
+.wcf-clearfix:after {
+    display: table;
+    content: "";
+    clear: both;
+}
+
+/* wcf Wrap
+**************************************/
+
+.bend, 
+.wcf-accordion,
+.wcf-accordion * {
+    box-sizing: border-box!important;
+    -webkit-box-sizing: border-box!important;
+    -moz-box-sizing: border-box!important;
+}
+
+.wcf-main-wrap .wrap.about-wrap {
+    font-size: 14px;
+    max-width: 100%;
+}
+
+.about-wrap.bend.wcf-insights-page {
+    padding: 0 !important;
+    margin: 0 !important;
+    max-width: 100%;
+    width: 100%;
+}
+
+#wcf-menu-page {
+    margin: 0;
+}
+
+.wcf-main-wrap .nav-tab,
+.wcf-ga-modal-content a.wcf-ga-filter,
+.wcf-campaign-selector a {
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid transparent;
+    color: #797979;
+    cursor: pointer;
+    padding: 10px 28px;
+    font-size: 16px;
+    margin-left: 0;
+    max-width: 100%;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+}
+/* Primary Button */ 
+.wcf-button-style {
+    background: #fff;
+    border: none;
+    border-radius: 3px;
+    box-shadow: 0 0px 3px 1px rgba(0, 0, 0, .1), 0 1px 2px rgba(0, 0, 0, .20);
+    text-align: center;
+    text-shadow: none;
+    text-decoration: none;
+    border: 1px solid #0073aa;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 400;
+    padding: 6px 20px;
+    text-align: center;
+    text-transform: uppercase;
+    vertical-align: middle;
+    -webkit-transition: all 100ms linear;
+    transition: all 100ms linear;
+}
+
+.wcf-btn-primary  {
+    background: #0073aa;
+    color: #fff;
+    -webkit-transition: all linear 250ms;
+    transition: all linear 250ms;
+}
+
+/* Button Hover Effect */
+.wcf-btn-primary:active, 
+.wcf-btn-primary:focus, 
+.wcf-btn-primary:hover {    
+    color: #fff;
+    background: #0073aa;
+}
+
+.wcf-button-style:active, .wcf-button-style:focus,
+.wcf-button-style:hover {
+    outline: 0;
+    text-decoration: none;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .19), 0 6px 6px rgba(0, 0, 0, .23);
+}
+
+.wcf-button-style:disabled {
+    cursor: not-allowed;
+    background: rgba(0, 115, 170, 0.69);
+}
+
+#wcf-resync-ga:disabled {
+    color: rgb(255, 255, 255);
+}
+
+.wcf-button-style.active {
+    cursor: wait;
+}
+
+.wcf-settings-form .wcf-submit-settings {
+    min-width: 165px;
+}
+/* General Setting 
+**************************************/
+
+.wcf-postbox-table select,
+.wcf-gen-set-content input[type=number],
+.wcf-gen-set-content input[type=text] {    
+    min-width: 200px;
+    height: 34px;
+    line-height: 34px;
+}
+
+.wcf-branding-wrap input[type=text],
+.wcf-branding-wrap textarea {    
+    min-width: 300px;
+}
+
+.wcf-gen-set-content .wcf-switch-btn,
+.wcf-gen-set-content .smile-switch-btn {
+    margin: 0;
+}
+
+.wcf-gen-set-content .form-table th {
+    vertical-align: middle;
+}
+
+.wcf-access-roles .form-table th {
+    vertical-align: top;
+}
+
+.wcf-access-roles .checkbox-grid {
+    margin: 10px 0;
+}
+
+.wcf-gen-set-tabs {
+    position: relative;
+    width: 100%;
+}
+
+.wcf-gen-set-tabs nav {
+    float: left;
+    width: 19%;
+    background: #f7f8fa;
+}
+
+.wcf-settings-nav.selected {
+    color: #0073aa;
+    background: #fff;
+    box-shadow: none;
+}
+
+.wcf-gen-set-menu a {
+    display: block;
+    border-bottom: 1px solid #eee;
+    color: #5f5f5f;
+    cursor: pointer;
+    padding: 23px 10px;
+    text-decoration: none;
+}
+
+.wcf-gen-set-menu a:hover {
+    color: #0073aa;
+    background: #fff;
+    box-shadow: none;
+}
+
+.wcf-gen-set-content {
+    background: #fff;
+    padding: 20px 25px;
+}
+
+.wcf-gen-set-menu .wcf-gen-set-icon {
+    margin: 7px;
+}
+
+.wcf-gen-set-tabs nav a:focus {
+    box-shadow: none;
+}
+
+.wcf-gen-set-tabs .wcf-gen-set-content {
+    display: none;
+}
+
+.wcf-gen-set-tabs .wcf-gen-set-content.wcf-cache-section {
+    display: block !important;
+    padding-left: 0;
+}
+
+.wcf-gen-set-tabs .wcf-gen-set-content.wcf-cache-section.wcf-border-top {
+    margin-top: 30px;
+    border-top: 1px solid #ddd;
+}
+
+.wcf-gen-set-tabs .wcf-gen-set-content.visible {
+    float: left;
+    width: 75%;
+    display: block;
+}
+
+h3.wcf-gen-set-title {
+    font-size: 18px;
+    margin: 0;
+}
+
+h3.wcf-error-services-title {
+    border-top: 1px solid #ddd;
+    padding-top: 30px;
+}
+

@@ -1,0 +1,28 @@
+
+/* Stat box */
+.wcf-col-33 {
+	width: 33.33%;
+}
+.wcf-col-50 {
+	width: 50%;
+}
+.wcf-stats-grid-container {
+	align-content: space-between;
+	border-bottom: 1px solid #dfdfdf;
+}
+.wcf-stats-box {
+    padding: 15px;
+	box-sizing: border-box;
+	border-right: 1px solid #dfdfdf;
+}
+.wcf-stats-grid-container:last-child,
+.wcf-stats-box:last-child {
+    border: 0;
+} 
+.wcf-stats-overview{
+    margin-top: 30px;
+    border-top: 1px solid #dfdfdf;
+}
+.wcf-stats-grid-container{
+    padding-top: 30px;
+}
